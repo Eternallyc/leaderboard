@@ -11,7 +11,7 @@ const key = "leaderboard"
 const TimeLength = 100_0000_0000
 
 var client = redis.NewClient(&redis.Options{
-	Addr:     "port:6379",
+	Addr:     "address:6379",
 	Password: "", // no password set
 	DB:       15, // use default DB
 })
